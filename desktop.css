@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
+  column-gap: 20px;
 }
 header {
   margin-bottom: -40px;
@@ -21,4 +21,7 @@ header p {
   grid-row: 2 / 4;
   grid-column: 3 / 4;
   align-self: center;
+}
+.info p {
+  padding-right: 40px;
 }
